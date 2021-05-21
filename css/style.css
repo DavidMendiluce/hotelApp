@@ -1,0 +1,439 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+span {
+  font-family: 'Aleo', serif;
+  font-weight: 300 !important;
+}
+
+h1 {
+  font-family: 'Aleo', serif;
+  font-weight: 400 !important;
+}
+
+h2 {
+  font-family: 'Aleo', serif;
+  font-weight: 300 !important;
+}
+
+p {
+  font-family: 'Aleo', serif;
+  font-weight: 300 !important;
+}
+
+button {
+  font-family: 'Aleo', serif;
+  font-weight: 300 !important;
+}
+
+#mainPageContainer {
+  height: 760vh;
+  margin: 0;
+}
+
+#mainNav a {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+nav {
+
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/resort2.jpg");
+  opacity: 1;
+  overflow: hidden;
+  background-size: cover;
+}
+
+nav ul {
+  position: fixed !important;
+  width: 100%;
+  height: 12vh;
+  z-index: 10;
+  background-color: rgba(247, 242, 238,0);
+}
+
+
+nav li {
+  padding-top: 2vh;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none !important;
+  font-size: 3vh;
+}
+
+.darkerBlack {
+color: rgba(53, 53, 53,1) !important;
+}
+
+.titleContainer {
+  padding-top: 4.5vh;
+}
+
+.descriptionContainerImg h1 {
+  color: rgba(53, 53, 53,1);
+  font-size: 5vh;
+}
+
+  /*font-size: 20px */
+.descriptionContainerImg p {
+  color: rgba(73, 73, 73,1);;
+  font-size: 2.4vh;
+  line-height: 4vh;
+}
+
+.descriptionContainerCarousel h1 {
+  color: rgba(53, 53, 53,1);
+  font-size: 5vh;
+}
+
+.descriptionContainerCarousel p {
+  color: rgba(73, 73, 73,1);
+  font-size: 2.4vh;
+}
+
+#experiencesContainer p {
+  font-size: 2.1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 3.5vh;
+}
+
+#experiencesContainer h2 {
+  color: rgba(63, 63, 63,1);
+  font-size: 2vh;
+}
+
+
+.textContainer {
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-top: 4.5vh;
+}
+
+#navMenu {
+  position: relative;
+  top: 2vh;
+  color: rgba(255, 255, 255);
+  opacity: 1;
+}
+
+#navMenu:hover{
+  opacity: 0.9;
+}
+
+#navLogo {
+  position: relative;
+  top: -21vh;
+  left: 4vh !important;
+}
+
+#logoBlack {
+  position: relative;
+  right: 25vh;
+}
+
+#logoWhite {
+  position: relative;
+  left: 25.8vh;
+}
+
+
+#navLogo img {
+  width: 50vh;
+  height: 50vh;
+}
+
+ #navLogo:hover {
+   color: rgba(235, 235, 235,1);
+ }
+
+ #navTitle {
+   position: relative;
+   font-family: 'Aleo', serif !important;
+   font-weight: 300 !important;
+   top: -20vh;
+   left: 33vh;
+   font-size: 3.5vh;
+   color: white;
+ }
+
+ .makeVisible {
+   visibility: visible;
+ }
+
+ .makeHidden {
+   visibility: hidden;
+ }
+
+ .removeDisplay {
+   display: none !important;
+ }
+
+
+
+ .secondMenu {
+   position: relative;
+   top: 12vh;
+   background: rgba(255,255,255,.1);
+	 box-shadow: 0 -3px 3px rgba(0,0,0.2);
+   backdrop-filter: blur(10px);
+   height: 10vh;
+   padding-left: 55vh;
+   padding-right: 55vh;
+ }
+
+ .secondMenu a {
+   color: white;
+   opacity: 0.8;
+ }
+
+ .secondMenu a:hover {
+   opacity: 1;
+ }
+
+ .secondMenu span {
+   font-size: 2.8vh;
+ }
+
+#navBooking {
+  cursor: pointer;
+  border: 0.3vh solid white;
+  position: relative;
+  right: 5vh;
+  top: 1vh;
+  padding: 1vh 4vh;
+  border: 0.3vh solid white;
+  background-color: rgba(23, 23, 23,1);
+  color: 'white';
+}
+
+#navBooking:hover {
+  border: 0.4vh solid white;
+  background-color: rgba(18, 18, 18,1);
+}
+
+#navBooking a {
+  color: white;
+}
+
+#navBooking a span {
+
+}
+
+
+.layerContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+
+
+
+.descriptionContainerImg {
+  position: relative;
+  left: 35vh;
+  top: 20vh;
+  height: 60vh;
+  width: 30%;
+  background-color: rgba(248, 248, 248);
+  z-index: 3;
+}
+
+
+.containerImg {
+  position: relative;
+  height: 80vh;
+  width: 50%;
+  left: 80vh;
+  top: -50vh;
+}
+
+.descriptionContainerCarousel {
+  position: relative;
+  left: 20vh;
+  top: 15vh;
+  height: 70vh;
+  width: 30%;
+  background-color: rgba(247, 242, 238,1);
+  z-index: 3;
+}
+
+#experiencesContainer .descriptionContainerCarousel {
+  height: 80vh;
+}
+
+.containerCarousel {
+  position: relative;
+  height: 70vh;
+  width: 50%;
+  left: 80vh;
+  top: -55vh;
+}
+
+#experiencesContainer .containerCarousel {
+  height: 80vh;
+  top: -65vh;
+  border: 1px solid red;
+
+}
+
+#experiencesContainer .containerCarousel img {
+  height: 80vh !important;
+}
+
+#experiencesContainer .containerCarousel .carousel-inner {
+  height: 80vh !important;
+}
+
+.containerCarousel .carousel-inner {
+  height: 70vh;
+}
+
+.ng-scope .ng-isolate-scope .item img {
+  height: 70vh;
+}
+
+.carousel-indicators li {
+  position: relative;
+  left: 5vh;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+  top: 0vh !important;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.carousel-indicators .active {
+  position: relative;
+  left: 5vh;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+  top: 0vh !important;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+
+.carousel-control-prev-icon {
+  position: inherit;
+}
+
+.carousel-control-next-icon {
+  position: inherit;
+}
+
+#contactContainer .containerForm{
+  position: relative;
+  top: 5vh;
+  right: 50%;
+}
+
+
+#contactContainer h1 {
+  font-size: 7vh;
+}
+
+.inputsRow div {
+  margin-top: 4vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.inputsRow div input {
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  background:
+    linear-gradient(black, black) bottom / 0% 2px no-repeat;
+  transition: 1s;
+  box-shadow: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.inputsRow div input:hover {
+  background-size: 100% 2px;
+}
+
+.btnSend {
+  position: relative;
+  top: 20vh;
+}
+
+.btnSend button {
+  cursor: pointer;
+  border-radius: none !important;
+  font-size: 2.5vh;
+  padding: 2vh 3vh;
+  background-color: rgba(43, 43, 43,1);
+  color: white;
+}
+
+.btnSend button:hover {
+  border: 0.4vh solid grey;
+  background-color: rgba(18, 18, 18,1);
+}
+
+#restaurantContainer .containerImg {
+  background-image: url("../img/restaurant.jpg");
+  background-size: cover;
+}
+
+#hotelIntroContainer .containerImg {
+  background-image: url("../img/intro.jpg");
+  background-size: cover;
+}
+
+.footer {
+  height: 5vh;
+  width: 100%;
+  background-color: rgba(43, 43, 43,1);
+}
+
+.footer p {
+  position: relative;
+  color: white;
+  font-size: 2vh;
+  right: 2vh;
+  top: 1vh;
+}
+
+.imageConcatctContainer1 {
+  height: 35vh;
+  width: 35vh;
+  position: relative;
+  top: -40vh;
+  left: 130vh;
+  background-image: url("../img/smallContact.jpg");
+  background-size: cover;
+  z-index:2;
+}
+
+.imageConcatctContainer2 {
+  height: 70vh;
+  width: 40vh;
+  position: relative;
+  left: 150vh;
+  top: -100vh;
+  background-image: url("../img/largeContact.jpg");
+  background-size: cover;
+  z-index: 0;
+}
